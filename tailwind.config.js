@@ -1,5 +1,6 @@
 module.exports = {
-  content: ["./public/index.html","./src/**/*.{html,js}"],
+  content: ["./public/index.html", "./src/**/*.{html,js}"],
+  
   darkmode: 'class',//or media or class 
   theme: {
     extend: {
@@ -23,7 +24,8 @@ module.exports = {
         ...theme('colors'),
         'primary':'#CC2D4A;',
         'secondary':' #8FA206;',
-        'third': '#61AEC9'
+        'third': '#61AEC9',
+        'LogBack':'#FCE7F3;',
       }),
       textColor: {
         'primary':'#CC2D4A;',
